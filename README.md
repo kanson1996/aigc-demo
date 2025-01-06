@@ -1,6 +1,14 @@
 # aigc-demo
 
 ## 文本生成式AI
+```shell
+# 初始化安装依赖
+pip install -r requirements.txt
+# 启动服务端
+python chat_server.py
+# 启动客户端
+python chat_ui.py
+```
 1. 后端：搭建server（流式、非流式）
    1. GPT-2
 2. 前端： 
